@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/txt_options"
+        android:text="@string/options"
+        android:padding="@dimen/margin_large"
+        style="@style/largeTextStyle"
+        />
+
+    <Button
+        android:id="@+id/btn_reset_progress"
+        style="@style/longButtonStyle"
+        android:layout_height="70dp"
+        android:text="@string/reset"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_change_user"
+        style="@style/longButtonStyle"
+        android:layout_height="70dp"
+        android:text="@string/change_user"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/txt_player_reset"
+        style="@style/normalTextStyle"
+        android:text="@string/player_reset"
+        android:layout_margin="@dimen/margin_small"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/btn_yes_button"
+            style="@style/longButtonStyle"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="@string/yes"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_no_button"
+            style="@style/longButtonStyle"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="@string/no" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_back_button"
+        style="@style/longButtonStyle"
+        android:text="@string/back"
+        android:visibility="visible" />
+
+</LinearLayout>

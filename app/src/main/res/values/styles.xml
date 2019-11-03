@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/lilita_one_regular</item>
+    </style>
+
+    <style name="playerButtonStyle" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/button_play</item>
+        <item name="android:layout_margin">@dimen/margin_play_buttons</item>
+        <item name="android:layout_width">@dimen/btn_play_size</item>
+        <item name="android:height">@dimen/btn_play_size</item>
+    </style>
+
+    <style name="squareButtonStyle" parent="android:Widget.ImageButton">
+        <item name="android:layout_width">@dimen/btn_square_size</item>
+        <item name="android:layout_height">@dimen/btn_square_size</item>
+    </style>
+
+    <style name="longButtonStyle" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_long</item>
+        <item name="android:layout_width">@dimen/btn_rect_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin_small</item>
+        <item name="android:textSize">@dimen/txt_medium</item>
+    </style>
+
+    <style name="normalTextStyle" parent="android:Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/txt_medium</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="largeTextStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/txt_extra_large</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

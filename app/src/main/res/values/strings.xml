@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">perocho_marquez_project</string>
+    <string name="title">TIP TAP</string>
+    <string name="player_format">[playing as]\n%s</string>
+    <string name="player_reset">Are you sure you want to reset progress for %s?</string>
+    <string name="play">PLAY</string>
+    <string name="QUIT">QUIT</string>
+    <string name="start">START</string>
+    <string name="back">BACK</string>
+    <string name="options">OPTIONS</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="reset">RESET PROGRESS</string>
+    <string name="change_user">CHANGE USER</string>
+    <string name="info_copy_pattern">copy this pattern . . .</string>
+    <string name="info_player_turn">Your Turn!</string>
+    <string name="SHARED_PREFERENCES_ID">5e71ad6d90</string>
+    <string name="CURRENT_USER_ID">f24657814b</string>
+</resources>
